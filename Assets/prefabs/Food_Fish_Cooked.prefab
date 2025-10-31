@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3117307930673269359}
   - component: {fileID: -2236688050384733205}
   - component: {fileID: -1153780719791408158}
+  - component: {fileID: 7143647811400483077}
   m_Layer: 0
   m_Name: Food_Fish_Cooked
   m_TagString: Untagged
@@ -30,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.858234, y: -0.043106385, z: 3.7408447}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.8343, y: 3.8343, z: 3.8343}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -102,6 +103,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
 --- !u!114 &-1153780719791408158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7558177280644396290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2716dbdb7fd37747a079d8f0c1e3c99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 40
+--- !u!114 &7143647811400483077
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
